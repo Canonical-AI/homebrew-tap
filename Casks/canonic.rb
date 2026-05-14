@@ -1,8 +1,8 @@
 cask "canonic" do
-  version "0.0.9-alpha"
-  sha256 "6b723642eaf0a13742a5a6e1f82ceae6acc4d7e83f3ae757f48d6bd2abd436a3"
+  version "0.0.10-alpha"
+  sha256 "1497d337014c6ddf400fab3952fed227030f47526dd8cc6f5d1036b02cd889f5"
 
-  url "https://github.com/Canonical-AI/canonic/releases/download/v0.0.9-alpha/canonic-arm64.dmg"
+  url "https://github.com/Canonical-AI/canonic/releases/download/v0.0.10-alpha/canonic-arm64.dmg"
   name "Canonic"
   desc "Local-first markdown editor for product managers"
   homepage "https://github.com/Canonical-AI/canonic"
