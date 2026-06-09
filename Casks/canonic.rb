@@ -1,18 +1,18 @@
 cask "canonic" do
-  version "0.1.4-alpha"
-  sha256 "61dce9f21d4950344b76fb52353451c23db3c1ddb5b243ed0f7d3c3dff7ac96f"
+  version "0.2.1-alpha"
+  sha256 "79a7479762a358fa637d2b04e6d6337a8d1da6c4d77b4fa7035bde9dda3308f8"
 
-  url "https://github.com/Canonical-AI/canonic/releases/download/v0.1.4-alpha/canonic-arm64.dmg"
+  url "https://github.com/Canonical-AI/canonic/releases/download/v#{version}/canonic_#{version}_universal.dmg"
   name "Canonic"
   desc "Local-first markdown editor for product managers"
   homepage "https://github.com/Canonical-AI/canonic"
 
-  app "Canonic.app"
+  app "canonic.app"
 
   zap trash: [
-    "~/Library/Application Support/canonic",
-    "~/Library/Preferences/com.canonical-ai.canonic.plist",
-    "~/Library/Logs/canonic",
-    "~/Library/Caches/com.canonical-ai.canonic",
+    "~/Library/Application Support/ai.canonic.app",
+    "~/Library/Preferences/ai.canonic.app.plist",
+    "~/Library/Caches/ai.canonic.app",
+    "~/Library/Logs/ai.canonic.app",
   ]
 end
